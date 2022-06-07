@@ -1,3 +1,3 @@
 class AppColorConst{
-  static int basecolor = 0xff7B61FF;
+  static int basecolor = 0xffB8B8B8;
 }
