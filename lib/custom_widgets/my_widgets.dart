@@ -36,29 +36,28 @@ OpnTextWidgt(
 }
 
 
+// OpnTextWidgt(
+//   {text_string,font_size,font_height,font_color, bg_colour,font_weight,text_align}
 
-
-// OpenScreen Text Widget
-TextWidgt(
-  {text_string,font_size,font_height,font_color,bg_colour,font_weight,text_align}
-
-){
- Text(     
-      text_string,
-      textScaleFactor: 2,
-      textAlign: text_align,
+// ){
+//  return 
+//       Text(
       
-      style: TextStyle(
-       fontWeight: font_weight,
-       fontSize: font_size,
-       color: Color(font_color),
-       height: font_height,
-       backgroundColor: Color(bg_colour),
+//       text_string,
+//       textScaleFactor: 2,
+//       textAlign: text_align,
+      
+//       style: TextStyle(
+//        fontWeight: font_weight,
+//        fontSize: font_size,
+//        color: Color(font_color),
+//        height: font_height,
+//        backgroundColor: Color(bg_colour),
        
-     ),
-   );
-}
-
+//      ),
+//       );
+ 
+// }
 
 
 
