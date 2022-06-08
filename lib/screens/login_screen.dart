@@ -26,10 +26,16 @@ class Login_Screen extends StatelessWidget {
                Text(AppTextConst.LoginScreen_Text1,style: TextStyle(color: Color(AppColorConst.Opn_titlecolor),fontSize: 24),),
                Text(AppTextConst.LoginScreen_Text2,style: TextStyle(color: Color(AppColorConst.Opn_titlecolor),fontSize: 24),),
                Text(AppTextConst.LoginScreen_Text3,style: TextStyle(color: Color(AppColorConst.Opn_titlecolor),fontSize: 24),)
-               ],
-             
+               ],             
            ),
-         )
+         ),
+         Expanded(child: Container(
+           child: Column(
+             children: [
+               TextField()
+             ],
+           ),
+         ))
        ],
      ),
    );
