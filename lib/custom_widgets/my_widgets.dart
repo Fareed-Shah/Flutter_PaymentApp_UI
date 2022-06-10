@@ -64,14 +64,17 @@ TextField_Widget(){
 
 // Container Widget
 ContainerWidget(
-  {isheight,iswidth,iscolor,isalignment,ispading}
+  {isheight=100,iswidth,iscolor}
 ){
  return Container(
-       padding: ispading,
-       alignment: isalignment,
-       height: isheight,
-       width: iswidth,
-       color: Color(iscolor),
- );
+           margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+           padding: EdgeInsets.all(10),
+           width: iswidth,
+           height: isheight,           
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color:iscolor,
+           ),
+     );
 }
 
