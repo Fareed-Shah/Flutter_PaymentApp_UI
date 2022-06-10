@@ -1,3 +1,6 @@
+
+
+import 'package:assignment_01/constant/app_text.dart';
 import 'package:flutter/material.dart';
 
 
@@ -63,10 +66,18 @@ TextField_Widget(){
 
 
 // Container Widget
-ContainerWidget(
+Offer_ContainerWidget1(
   {isheight=100,iswidth,iscolor}
 ){
  return Container(
+          child: Column(
+            children: [
+            Text(AppTextConst.Offcon_1txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_1txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_1txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            Text(AppTextConst.Offcon_1txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            ],
+          ),
            margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
            padding: EdgeInsets.all(10),
            width: iswidth,
@@ -78,3 +89,95 @@ ContainerWidget(
      );
 }
 
+Offer_ContainerWidget2(
+  {isheight=100,iswidth,iscolor}
+){
+ return Container(          
+          child: Column(            
+            children: [                         
+            Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
+            ],
+          ),
+           margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+           padding: EdgeInsets.all(10),
+           width: iswidth,
+           height: isheight,           
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color:iscolor,
+           ),
+     );
+}
+
+
+Offer_ContainerWidget3(
+  {isheight=100,iswidth,iscolor}
+){
+ return Container(          
+          child: Column(            
+            children: [                         
+            Text(AppTextConst.Offcon_3txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_3txt2,style: TextStyle(fontSize: 10,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_3txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),)
+            
+            ],
+          ),
+           margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+           padding: EdgeInsets.all(10),
+           width: iswidth,
+           height: isheight,           
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color:iscolor,
+           ),
+     );
+}
+
+Offer_ContainerWidget4(
+  {isheight=100,iswidth,iscolor}
+){
+ return Container(          
+          child: Column(            
+            children: [                         
+            Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
+            ],
+          ),
+           margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+           padding: EdgeInsets.all(10),
+           width: iswidth,
+           height: isheight,           
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color:iscolor,
+           ),
+     );
+}
+
+Offer_ContainerWidget5(
+  {isheight=100,iswidth,iscolor}
+){
+ return Container(          
+          child: Column(            
+            children: [                         
+            Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
+            ],
+          ),
+           margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
+           padding: EdgeInsets.all(10),
+           width: iswidth,
+           height: isheight,           
+           decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(15),
+            color:iscolor,
+           ),
+     );
+}

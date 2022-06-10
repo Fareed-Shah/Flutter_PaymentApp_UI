@@ -1,4 +1,5 @@
 import 'package:assignment_01/constant/app_colour.dart';
+import 'package:assignment_01/constant/app_text.dart';
 import 'package:assignment_01/custom_widgets/my_widgets.dart';
 import 'package:flutter/material.dart';
 
@@ -19,11 +20,12 @@ class _Offer_ScreenState extends State<Offer_Screen> {
       Column(
         
         children: [      
-        ContainerWidget(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
-        ContainerWidget(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100),
-        ContainerWidget(iscolor: Color(0xff422028),iswidth: MediaQuery.of(context).size.width*100),
-        ContainerWidget(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
-        ContainerWidget(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100)
+        Offer_ContainerWidget1(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
+        Offer_ContainerWidget2(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100),
+        Offer_ContainerWidget3(iscolor: Color(0xff422028),iswidth: MediaQuery.of(context).size.width*100),
+        Offer_ContainerWidget4(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
+        Offer_ContainerWidget5(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100),
+
 
 
         ],
