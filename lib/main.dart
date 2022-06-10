@@ -1,3 +1,4 @@
+import 'package:assignment_01/screens/home_screen.dart';
 import 'package:assignment_01/screens/login_screen.dart';
 import 'package:assignment_01/screens/open_screen.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   return const MaterialApp(
     debugShowCheckedModeBanner: false,
     // home:Open_Screen(),
-    home:Login_Screen(),
+    home:Home_Screen(),
   );
   }
 }
