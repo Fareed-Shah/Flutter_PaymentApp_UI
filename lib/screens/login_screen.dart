@@ -51,7 +51,7 @@ class Login_Screen extends StatelessWidget {
               primary: Color(AppColorConst.Opn_titlebgcolor),
               fixedSize: const Size(300, 43),
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(50))),
+                  borderRadius: BorderRadius.circular(10))),
              ),
              SizedBox(height: 10,),
              Text(AppTextConst.LoginScreen_Text4,style: TextStyle(color:Color(AppColorConst.TermCondition),fontSize: 12),),

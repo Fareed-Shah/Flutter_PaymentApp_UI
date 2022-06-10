@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   return const MaterialApp(
     debugShowCheckedModeBanner: false,
     // home:Open_Screen(),
-    home:Home_Screen(),
+    home:Open_Screen(),
   );
   }
 }

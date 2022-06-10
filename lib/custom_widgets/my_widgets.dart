@@ -116,20 +116,20 @@ Offer_ContainerWidget2(
 Offer_ContainerWidget3(
   {isheight=100,iswidth,iscolor}
 ){
- return Container(          
+ return Container(   
+             
           child: Column(            
-            children: [                         
+            children: [               
             Text(AppTextConst.Offcon_3txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
             Text(AppTextConst.Offcon_3txt2,style: TextStyle(fontSize: 10,color: Color(0xffECEFF1)),),
-            Text(AppTextConst.Offcon_3txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),)
-            
+            Text(AppTextConst.Offcon_3txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),)            
             ],
           ),
            margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
            padding: EdgeInsets.all(10),
            width: iswidth,
            height: isheight,           
-           decoration: BoxDecoration(
+           decoration: BoxDecoration(             
             borderRadius: BorderRadius.circular(15),
             color:iscolor,
            ),
