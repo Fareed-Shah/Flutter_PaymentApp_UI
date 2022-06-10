@@ -21,7 +21,9 @@ class _Offer_ScreenState extends State<Offer_Screen> {
         children: [      
         ContainerWidget(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
         ContainerWidget(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100),
-        ContainerWidget(iscolor: Color(0xff422028),iswidth: MediaQuery.of(context).size.width*100)
+        ContainerWidget(iscolor: Color(0xff422028),iswidth: MediaQuery.of(context).size.width*100),
+        ContainerWidget(iscolor: Color(0xff242042),iswidth: MediaQuery.of(context).size.width*100),
+        ContainerWidget(iscolor: Color(0xff3B2042),iswidth: MediaQuery.of(context).size.width*100)
 
 
         ],
