@@ -89,19 +89,41 @@ class _Balance_ScreenState extends State<Balance_Screen> {
         ],
       ),
       
-       Container(
-       margin: EdgeInsets.all(10),
-       padding: EdgeInsets.all(10),
-       width: 140,
-       height: 120,       
-       decoration: BoxDecoration(
-        color: Color(0xff2A6550),
-        borderRadius: BorderRadius.circular(10),
-         )
-        ),
- 
-
+       Row(
+         children: [
+           Container(
+           margin: EdgeInsets.all(10),
+           padding: EdgeInsets.all(10),
+           width: 140,
+           height: 120,       
+           decoration: BoxDecoration(
+            color: Color(0xff2A6550),
+            borderRadius: BorderRadius.circular(10),
+             )
+            ),
+           Container(
+           margin: EdgeInsets.all(10),
+           padding: EdgeInsets.all(10),
+           width: 140,
+           height: 120,       
+           decoration: BoxDecoration(
+            //color: Color(0xff2A6550),
+            borderRadius: BorderRadius.circular(10),
+             )
+            ),
+         ],
+       ),
+          ElevatedButton(
+          onPressed: () {},
+          child: const Text('Add / Manage Accounts',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),),
+          style: ElevatedButton.styleFrom(
+              primary: Color(0xff343645),
+              fixedSize: const Size(300, 43),
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10))),
+             )
         ],
+        
        ),
      )
    );
