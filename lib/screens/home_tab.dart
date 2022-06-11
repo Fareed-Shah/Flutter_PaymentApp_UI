@@ -304,14 +304,79 @@ class _Home_TabState extends State<Home_Tab> {
                       child: Icon(Icons.local_hospital),
                       backgroundColor: Colors.transparent,
                      ),
-                     ),
-                     
+                     ),                     
                    ],
                  ),
               ],
             ),
             ),
-       
+           Container(               
+            margin: EdgeInsets.only(left: 10),
+            padding: EdgeInsets.all(10),             
+            width: MediaQuery.of(context).size.width*100,  
+            height: 150,             
+            child: Column(                       
+             children: [                 
+                 const Text('Recent Transactions',style: TextStyle(fontSize: 18,color: Color(0xffFFFFFF)),),
+                 Row(
+                   children: [
+                     Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                      decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                   borderRadius: BorderRadius.circular(10)),
+                    child: CircleAvatar(
+                      child: Icon(Icons.bungalow_outlined),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                    Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.business_center),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.heart_broken),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 12),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.local_hospital),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),                     
+                   ],
+                 ),
+              ],
+            ),
+            ),
       ],
     )
 
