@@ -73,6 +73,7 @@ Offer_ContainerWidget1(
           child: Column(
             children: [
             Text(AppTextConst.Offcon_1txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            SizedBox(height: 5,),
             Text(AppTextConst.Offcon_1txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
             Text(AppTextConst.Offcon_1txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
             Text(AppTextConst.Offcon_1txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
@@ -96,6 +97,7 @@ Offer_ContainerWidget2(
           child: Column(            
             children: [                         
             Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            SizedBox(height: 5,),
             Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
             Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
             Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
@@ -121,6 +123,7 @@ Offer_ContainerWidget3(
           child: Column(            
             children: [               
             Text(AppTextConst.Offcon_3txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            SizedBox(height: 8,),
             Text(AppTextConst.Offcon_3txt2,style: TextStyle(fontSize: 10,color: Color(0xffECEFF1)),),
             Text(AppTextConst.Offcon_3txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),)            
             ],
@@ -142,10 +145,11 @@ Offer_ContainerWidget4(
  return Container(          
           child: Column(            
             children: [                         
-            Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
-            Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
-            Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
-            Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
+            Text(AppTextConst.Offcon_4txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            SizedBox(height: 5,),
+            Text(AppTextConst.Offcon_4txt2,style: TextStyle(fontSize: 10,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_4txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            Text(AppTextConst.Offcon_4txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
             ],
           ),
            margin: EdgeInsets.fromLTRB(20, 10, 20, 0),
@@ -165,10 +169,12 @@ Offer_ContainerWidget5(
  return Container(          
           child: Column(            
             children: [                         
-            Text(AppTextConst.Offcon_2txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
-            Text(AppTextConst.Offcon_2txt2,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
-            Text(AppTextConst.Offcon_2txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
-            Text(AppTextConst.Offcon_2txt4,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),       
+            Text(AppTextConst.Offcon_5txt1,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),
+            SizedBox(height: 5,),
+            Text(AppTextConst.Offcon_5txt2,style: TextStyle(fontSize: 10,color: Color(0xffECEFF1)),),
+            Text(AppTextConst.Offcon_5txt3,style: TextStyle(fontSize: 10,color: Color(0xffB0BEC5)),),
+            SizedBox(height: 5,),
+            Text(AppTextConst.Offcon_5txt4,style: TextStyle(fontSize: 15,color: Color(0xffECEFF1)),),       
             ],
           ),
            margin: EdgeInsets.fromLTRB(20, 10, 20, 0),

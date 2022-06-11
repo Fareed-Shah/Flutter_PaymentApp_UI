@@ -25,4 +25,14 @@ class AppTextConst{
  static  String Offcon_3txt3 = "To Get 50 % cashback. T&C apply" ;
  
 
+ static  String Offcon_4txt1 = "Money Transfer" ;
+ static  String Offcon_4txt2 = "Get a scratch card with assuered cashback and" ;
+ static  String Offcon_4txt3 = "Coupon on Money Transfer of Rs500 or" ;
+ static  String Offcon_4txt4 = "more. T&C apply" ;
+
+  static  String Offcon_5txt1 = "Rs 50 Off on Flights" ;
+ static  String Offcon_5txt2 = "Get instant discount on flat 50 Rs on flight" ;
+ static  String Offcon_5txt3 = "ticket booking. T&C apply" ;
+ static  String Offcon_5txt4 = "Go to offer page" ;
+
 }

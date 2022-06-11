@@ -1,6 +1,7 @@
 import 'package:assignment_01/constant/app_colour.dart';
 import 'package:assignment_01/custom_widgets/app_barwidget.dart';
 import 'package:assignment_01/screens/balance_screen.dart';
+import 'package:assignment_01/screens/home_tab.dart';
 import 'package:assignment_01/screens/offer_screen.dart';
 import 'package:assignment_01/screens/open_screen.dart';
 import 'package:assignment_01/screens/rewards_screen.dart';
@@ -19,7 +20,7 @@ class _Home_ScreenState extends State<Home_Screen> {
   @override
   Widget build(BuildContext context) {
    return DefaultTabController(
-     length: 3,
+     length: 4,
      child: Scaffold(
        backgroundColor: Color(AppColorConst.basecolor),
        appBar: AppBar(
@@ -88,7 +89,7 @@ class _Home_ScreenState extends State<Home_Screen> {
             indicatorWeight: 5,
             indicatorColor: Colors.white,
             tabs: [
-          //  Tab(child: Text('Home',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
+           Tab(child: Text('Home',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
            Tab(child: Text('Balance',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
            Tab(child: Text('Offers',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
            Tab(child: Text('Rewards',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),)          
@@ -96,7 +97,7 @@ class _Home_ScreenState extends State<Home_Screen> {
        ),       
        body: TabBarView(children: 
        [
-        //  Open_Screen(),
+        Home_Tab(),
          Balance_Screen(),
           Offer_Screen(),
           Rewards_Screen()
