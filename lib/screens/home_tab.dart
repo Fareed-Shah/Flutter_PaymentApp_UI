@@ -39,8 +39,8 @@ class _Home_TabState extends State<Home_Tab> {
               borderRadius: BorderRadius.circular(10))),)
               ],),
              
-           Row(
-             children: [
+           Row(            
+             children: [              
                Container(
               margin: EdgeInsets.only(top: 10,right: 10),
               padding: EdgeInsets.all(10),
@@ -49,7 +49,7 @@ class _Home_TabState extends State<Home_Tab> {
                decoration: BoxDecoration(
                color: Color(0xff5B2E62),
                 borderRadius: BorderRadius.circular(10)
-               )
+               ),child: Center(child: Text('Scan QR Code',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
                 ),
              Container(
             margin: EdgeInsets.only(top: 10),
@@ -59,7 +59,7 @@ class _Home_TabState extends State<Home_Tab> {
            decoration: BoxDecoration(
            color: Color(0xff2E624C),
             borderRadius: BorderRadius.circular(10)
-           )
+           ),child: Center(child: Text('Send To Contact',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
             ),
              ],
            ),
@@ -74,7 +74,7 @@ class _Home_TabState extends State<Home_Tab> {
                decoration: BoxDecoration(
                color: Color(0xff5E622E),
                 borderRadius: BorderRadius.circular(10)
-               )
+               ),child: Center(child: Text('Send To Bank',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
                 ),
              Container(
             margin: EdgeInsets.only(top: 10),
@@ -84,7 +84,7 @@ class _Home_TabState extends State<Home_Tab> {
            decoration: BoxDecoration(
            color: Color(0xff622E3A),
             borderRadius: BorderRadius.circular(10)
-           )
+           ),child: Center(child: Text('Self Transfer',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
             ),
              ],
            ),
