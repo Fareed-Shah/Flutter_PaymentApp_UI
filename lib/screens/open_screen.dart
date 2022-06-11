@@ -47,7 +47,7 @@ class Open_Screen extends StatelessWidget {
           child: const Text('INSTANT PAY'),
           
           style: ElevatedButton.styleFrom(
-              
+              textStyle: TextStyle(fontSize: 30,fontStyle: FontStyle.italic),
               shadowColor:  Color(0xffB8B8B8),
               primary: Color(AppColorConst.Opn_titlebgcolor),
               fixedSize: const Size(300, 50),

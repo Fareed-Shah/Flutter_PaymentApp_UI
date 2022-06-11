@@ -1,3 +1,4 @@
+import 'package:assignment_01/screens/balance_screen.dart';
 import 'package:assignment_01/screens/home_screen.dart';
 import 'package:assignment_01/screens/login_screen.dart';
 import 'package:assignment_01/screens/open_screen.dart';
@@ -19,8 +20,9 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
   return const MaterialApp(
     debugShowCheckedModeBanner: false,
-    // home:Open_Screen(),
+    
     home:Open_Screen(),
+    
   );
   }
 }
