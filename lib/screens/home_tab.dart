@@ -97,7 +97,7 @@ class _Home_TabState extends State<Home_Tab> {
        margin: EdgeInsets.only(top: 5,left: 20,right: 20),
        //padding: EdgeInsets.all(10),
         width: MediaQuery.of(context).size.width*100,
-        height: 150,        
+        height: 140,        
         child: Column(
            mainAxisAlignment: MainAxisAlignment.start,
           children: [
@@ -124,7 +124,7 @@ class _Home_TabState extends State<Home_Tab> {
                decoration: BoxDecoration(
                color: Color(0xff32652A),
                 borderRadius: BorderRadius.circular(10)
-               )
+               ),child: Center(child: Text('Mobile Recharge',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
                 ),
              Container(
             margin: EdgeInsets.only(top: 10),
@@ -134,7 +134,7 @@ class _Home_TabState extends State<Home_Tab> {
            decoration: BoxDecoration(
            color: Color(0xff652A5F),
             borderRadius: BorderRadius.circular(10)
-           )
+           ),child: Center(child: Text('Electricity Bill',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
             ),
              ],
            ),
@@ -149,7 +149,7 @@ class _Home_TabState extends State<Home_Tab> {
                decoration: BoxDecoration(
                color: Color(0xff652A2A),
                 borderRadius: BorderRadius.circular(10)
-               )
+               ),child: Center(child: Text('DTH Recharge',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
                 ),
              Container(
             margin: EdgeInsets.only(top: 10),
@@ -159,14 +159,158 @@ class _Home_TabState extends State<Home_Tab> {
            decoration: BoxDecoration(
            color: Color(0xff2A4065),
             borderRadius: BorderRadius.circular(10)
-           )
+           ),child: Center(child: Text('Postpaid Bill',style: TextStyle(fontSize: 15,color: Color(0xffFFFFFF)),)),
+            ),],),],),) ,
+          
+            Container(               
+            margin: EdgeInsets.only(left: 10),
+            padding: EdgeInsets.all(10),             
+            width: MediaQuery.of(context).size.width*100,  
+            height: 120,             
+            child: Column(                  
+             children: [                 
+                 
+                 const Text('Ticket Booking',style: TextStyle(fontSize: 18,color: Color(0xffFFFFFF)),),
+                 Row(
+                   children: [
+                     Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                      decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                     child: CircleAvatar(
+                      child: Icon(Icons.movie),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                    Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                     child: CircleAvatar(
+                      child: Icon(Icons.train),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),                     
+                     child: CircleAvatar(
+                      child: Icon(Icons.bus_alert),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 12),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),                     
+                     child: CircleAvatar(
+                      child: Icon(Icons.flight),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.car_crash),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                   ],
+                 ),
+              ],
             ),
-             ],
-           ),
-          ],
-        ),
-        
-      ) 
+            ),
+            Container(               
+            margin: EdgeInsets.only(left: 10),
+            padding: EdgeInsets.all(10),             
+            width: MediaQuery.of(context).size.width*100,  
+            height: 150,             
+            child: Column(                       
+             children: [                 
+                 const Text('More Services',style: TextStyle(fontSize: 18,color: Color(0xffFFFFFF)),),
+                 Row(
+                   children: [
+                     Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                      decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                   borderRadius: BorderRadius.circular(10)),
+                    child: CircleAvatar(
+                      child: Icon(Icons.bungalow_outlined),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                    Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.business_center),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 10),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.heart_broken),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                                         Container(
+                     margin: EdgeInsets.only(top: 10,right: 12),
+                     padding: EdgeInsets.all(10), 
+                      height: 60,
+                      width: 60,                      
+                     decoration: BoxDecoration(
+                     color: Color(0xff242042),
+                     borderRadius: BorderRadius.circular(10)),
+                      child: CircleAvatar(
+                      child: Icon(Icons.local_hospital),
+                      backgroundColor: Colors.transparent,
+                     ),
+                     ),
+                     
+                   ],
+                 ),
+              ],
+            ),
+            ),
        
       ],
     )
