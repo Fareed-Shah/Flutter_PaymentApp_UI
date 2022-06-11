@@ -87,7 +87,7 @@ class _Home_ScreenState extends State<Home_Screen> {
     bottom: 
     TabBar(
             indicatorWeight: 5,
-            indicatorColor: Colors.white,
+            indicatorColor: Colors.grey,
             tabs: [
            Tab(child: Text('Home',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
            Tab(child: Text('Balance',style: TextStyle(fontSize: 16,fontWeight:FontWeight.w600 ),),),
